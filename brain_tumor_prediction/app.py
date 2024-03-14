@@ -20,7 +20,7 @@ model_file_path = os.path.join(model_folder, 'gaussian_brain.pkl')
 with open(model_file_path, 'rb') as model_file:
 
     loaded_model = pickle.load(model_file)
-
+st.image(r'https://innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png')
 st.title('Welcome to Brain Tumor Prediction App')
 
 # Take user input
